@@ -68,7 +68,7 @@ nav[role="navigation"] a {
     padding:  0.5em;
     border:  1px solid #ccc;
     transition: border-color  0.3s ease;
-    /* Additional input styles */
+   
 }
 
 .odkhel .form-group input:focus {
@@ -78,7 +78,7 @@ nav[role="navigation"] a {
 .odkhel .form-group .error {
     display: none;
     color: red;
-    /* Additional error message styles */
+    
 }
 
 .odkhel .form-group input:invalid + .error {
@@ -91,5 +91,5 @@ nav[role="navigation"] a {
     padding:  0.5em  1em;
     border: none;
     cursor: pointer;
-    /* Additional button styles */
+
 }
