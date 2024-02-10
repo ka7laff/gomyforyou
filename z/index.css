@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://source.unsplash.com/random/1600x900/?earth");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:  0;
+    padding:  0;
+    height:  100vh;
+}
+
+.header {
+    
+}
+
+.animated-heading {
+    animation: fadeInDown  1s ease-in-out;
+    color: #f3f3f3;
+}
+
+@keyframes fadeInDown {
+    0% { opacity:  0; transform: translateY(-20px); }
+    100% { opacity:  1; transform: translateY(0); }
+}
+
+nav[role="navigation"] ul {
+    list-style-type: none;
+    padding:  0;
+    
+}
+
+nav[role="navigation"] li {
+    display: inline;
+    
+}
+
+nav[role="navigation"] a {
+    text-decoration: none;
+    color: #fff;
+    transition: color  0.3s ease;
+    
+}
+
+.odkhel fieldset {
+    border: none;
+    
+}
+
+.odkhel legend {
+    display: block;
+    width:  100%;
+    padding:  0;
+    margin-bottom:  1em;
+    font-weight: bold;
+    
+}
+
+.odkhel .form-group {
+    margin-bottom:  1em;
+}
+
+.odkhel .form-group label {
+    display: block;
+    margin-bottom:  0.5em;
+}
+
+.odkhel .form-group input {
+    width:  100%;
+    padding:  0.5em;
+    border:  1px solid #ccc;
+    transition: border-color  0.3s ease;
+    /* Additional input styles */
+}
+
+.odkhel .form-group input:focus {
+    border-color: #ffdb58;
+}
+
+.odkhel .form-group .error {
+    display: none;
+    color: red;
+    /* Additional error message styles */
+}
+
+.odkhel .form-group input:invalid + .error {
+    display: block;
+}
+
+.odkhel button {
+    background-color: #ffdb58;
+    color: #333;
+    padding:  0.5em  1em;
+    border: none;
+    cursor: pointer;
+    /* Additional button styles */
+}
